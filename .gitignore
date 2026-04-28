@@ -1,0 +1,36 @@
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+j-enhanced/.venv/
+
+# Logs and experiment outputs
+*.log
+logs/
+runs/
+wandb/
+outputs/
+
+# Data / external services
+data/
+datasets/
+j-enhanced/data/
+elasticsearch-*/
+
+# Models / checkpoints
+checkpoints/
+models/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+
+# System / editor
+.DS_Store
+.vscode/
